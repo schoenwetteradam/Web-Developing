@@ -3,110 +3,165 @@
   <head>
     <meta charset="utf-8">
     <title>Web Developing Brothers</title>
+    <link rel="shortcut icon" type="image" href="images/WBD-LOGO-WHITE-BACKGROUND.svg">
     <link rel="stylesheet" href="styles.css"/>
     <meta name="viewport" content="width=display-width, initial-scale=1"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto:wght@300;400;500;700;900&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/442cd81aa1.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-  <section class="header">
-    <nav>
-      <div class="nav-links" id="navLinks">
-        <img class="banner" src="images/WebDevelopingBrothersLLC.jpg">
-        <img class ="menu" src="images/menu.jpg">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="">SERVICES</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
+
+<body>
+  
+  
+<section class="header">
+    <nav class="nav">
+      <img class="banner" src="images/Web-Developing-brothers.png">
+    
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html">HOME</a></li>
+        <li class="nav-item"><a href="services.html">SERVICES</a></li>
+        <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
+        <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
+    
     </nav>
-  </section>
-    <div class="container"> 
-      <div class="intro">
-          <img class="logo" src="images/WebDevelopingBrothersLLC.jpg"/>
-          <h1>Web Developing Brothers LLC</h1>
-          <h3>Adam & Andrew Schoenwetter</h3>
-          <p class="quote">{{pause and ponder}}</p>
-      </div>
+</section>
 
-      <hr/>
+  <div class="hero">
+    <video autoplay loop muted plays-inline class="fog-video">
+    <source src="images/green-fog.mp4" type="video/mp4">
+    </video>
 
-      <div class="about-grid">
-        <div class="i-am">
-          <h3>I am</h3>
-          <ul class="about-list">
-            <li>An Engineer</li>
-            <li>A developer</li>
-            <li>A Consultant</li=>
-          </ul>
-        </div>
-        <div class="i-like">
-          <h3>I like to</h3>
-          <ul class="about-list">
-            <li>Learn</li>
-            <li>Hockey</li>
-            <li>Eat</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr/>
-      
-      <div>
-        <h3 id="project-heading">My Projects</h3>
-        <div class="projects-grid">
-          <div class="project-image-wrapper">
-            <img class= "project-image" a href="nayelisnailstudio.com" src="images/nayelisnailstudio.png"/>
-            <h4><a href="nayelisnailstudio.com">Nayeli's Nail Studio LLC</a></h4>
-          </div>
-          <div class="project-image-wrapper">
-            <img class= "project-image"  src="images/tscsllc.png"/>
-            <h4><a href="tscsllcconsulting.com">Todd Schoenwetter Consulting Services LLC</a></h4>
-          </div>
-
-        </div>
-      </div>
-
-      <hr/>
-
-      <div class="links-and-contact">
-        <div class="links">
-          <h3>Links</h3>
-          <ul class="links-list">
-            <li>
-              <a href="">Github</a>
-            </li>
-            <li>
-              <a href="">Twitter</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/web-developing-brothers/about/?viewAsMember=true">Linkedin</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <form action="#">
-            <label for="email">
-              <h4>Email</h4>
-              <input id="email" placeholder="Enter Your Email"/>
-            </label>
-            <label for="mesage">
-              <h4>Message</h4>
-              <textarea id="message">Your Message</textarea>
-            </label>
-            <div class="submit-button-wrapper">
-              <input id="submit-button" type="Submit" value="Send Message">
-            </div>
-          </form>
-        </div>
-      </div>
+    <div class="content">
+      <h1>Web Developing Brothers LLC</h1>
+      <h3>Adam & Andrew Schoenwetter</h3>
+      <p class="quote">{{pause and ponder}}</p>
+      <a href="#" class="btn-full">Show Me Your Portfolio! &rarr;</a>
+      <a href="#" class="btn-outline">Learn More &darr;</a>
+    </div>
+    <div class="hero-image-box">
+      <img src="images/Adam-and-drew.png" class="adam-andrew">
+    </div>
   </div>
-      <script src="script.js"></script>
-    </body>
+
+
+<!-- About -->
+
+  <div class="about">
+    <h3 class="heading-about-list">My Name Is Adam Schoenwetter</h3>
+    <div class="about-grid">
+      <div class="about-me">
+        <img src="images/adam-pic.jpg" class="adam-pic">
+        <a href="images/Adam-Resume-2022.pdf" class="resume">Resume</a>
+      </div>
+      <div class="grid-side-2">
+        <h4 class="code-i-write-with">Code I Write With</h4>
+          <div class="code-grid">
+            <p>
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3"></i><br>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-bootstrap"></i><br>
+              <i class="fa-brands fa-node-js"></i>
+              <i class="fa-brands fa-react"></i>
+            </p>
+            <div class="design-componets">
+              <img src="images/design-componets.svg" class="design-componets-pic">
+            </div>
+          </div>
+      </div>    
+    </div>
+  </div>
+    <hr/> 
+    
+<!-- Projects -->
+
+    <div class="projects">
+      <h3 id="project-heading">My Projects</h3>
+      <div class="projects-grid">
+        <div class="project-image-wrapper">
+          <img class= "project-image" a href="nayelisnailstudio.com" src="images/nayelisnailstudio.png"/>
+          <h4><a href="nayelisnailstudio.com">Nayeli's Nail Studio LLC</a></h4>
+          <div class="view">         
+              <p class="project-view"><a href="#">Repo</a></p>
+              <p class="project-view"><a href="#">Live</a></p>
+          </div>
+        </div>
+        <div class="project-image-wrapper">
+          <img class= "project-image"  src="images/tscsllc.png"/>
+          <h4><a href="tscsllcconsulting.com">Todd Schoenwetter Consulting Services LLC</a></h4>
+          <div class="view">
+            <p class="project-view"><a href="#">Repo</a></p>
+            <p class="project-view"><a href="#">Live</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  <hr/>
+
+  <div class="links-and-contact">
+    <div class="links">
+      <h3>Links</h3>
+      <ul class="links-list">
+        <li>
+          <i class="fa-brands fa-github"></i><a href="https://github.com/schoenwetteradam">Github</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-twitter"></i><a href="">Twitter</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/company/web-developing-brothers/about/?viewAsMember=true">Linkedin</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/adam.schoenwetter.311">Facebook</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <form action="#">
+        <label for="email">
+          <h4>Email</h4>
+          <input id="email" placeholder="Enter Your Email"/>
+        </label>
+        <label for="mesage">
+          <h4>Message</h4>
+          <textarea id="message">Your Message</textarea>
+        </label>
+        <div class="submit-button-wrapper">
+          <input id="submit-button" type="Submit" value="Send Message">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+  <hr>
+    <div class="social-links">
+      <Span>
+        <div class="soc"><i class="fa-brands fa-github"></i><a href="https://github.com/schoenwetteradam">Github</a></div>
+        <div class="soc"><i class="fa-brands fa-twitter"></i><a href="">Twitter</a></div>
+        <div class="soc"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/company/web-developing-brothers/">Linkedin</a></div>
+        <div class="soc"><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/adam.schoenwetter.311">Facebook</a></div>
+      </Span>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+    
+    
+  </body>
   </html>
