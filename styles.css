@@ -220,10 +220,15 @@ btn-full:active {
   }
 }
 
-.adam-andrew {
+.hero-image-box{
   position: absolute;
+  bottom: 40%;
+  left: 68%;
+  transform: rotate(17deg);
+}
+
+.adam-and-drew {
   opacity: .7;
-  transform: rotate(30deg);
   max-width: 200px;
 }
 
@@ -321,9 +326,7 @@ btn-full:active {
 
 .design-componets{
   padding: 4px;
-  position: absolute;
-  left: 2px;
-  top:1px;
+  bottom: 1px;
 }
 
 .design-componets-pic {
@@ -331,6 +334,7 @@ btn-full:active {
   width: 40%;
   box-shadow: 0 8px 12px #d0d5d5;
   transform: rotate(17deg);
+  top: 1px;
 }
 
 /* Projects */
